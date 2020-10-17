@@ -82,7 +82,7 @@
         android:layout_marginEnd="237dp"
         android:layout_marginRight="237dp"
         android:text="Google"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton2"
+        app:layout_constraintEnd_toStartOf="@+id/more"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -96,11 +96,12 @@
         app:layout_constraintStart_toStartOf="@+id/switch1" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton2"
+        android:id="@+id/more"
         android:layout_width="0dp"
         android:layout_height="43dp"
         android:layout_marginTop="14dp"
         android:text="More"
+        android:textColor="#B814D5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/switch1"
         app:layout_constraintTop_toTopOf="parent" />
