@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="136dp"
         android:checkedButton="@+id/radio_button_1"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/Downloads"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -39,7 +39,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Bookmark"
         android:layout_width="93dp"
         android:layout_height="38dp"
         android:layout_marginTop="60dp"
@@ -53,15 +53,15 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="54dp"
-        android:layout_marginLeft="54dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="172dp"
         android:text="Bookmarks"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Downloads"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="176dp"
@@ -82,8 +82,8 @@
         android:layout_marginEnd="31dp"
         android:layout_marginRight="31dp"
         android:text="Downloads"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button3"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Downloads"
+        app:layout_constraintEnd_toStartOf="@+id/Downloads"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
