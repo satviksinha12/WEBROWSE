@@ -97,20 +97,12 @@
 
     <Button
         android:id="@+id/more"
-        android:layout_width="72dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="336dp"
-        android:layout_marginLeft="336dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="671dp"
+        android:layout_width="77dp"
+        android:layout_height="43dp"
         android:text="More"
         android:textColor="#BC1BD8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="@+id/refresh"
+        tools:layout_editor_absoluteX="334dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
