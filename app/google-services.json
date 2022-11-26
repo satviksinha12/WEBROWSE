@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "465167185215",
+    "firebase_url": "https://sdevloper-webrowse-south.firebaseio.com",
+    "project_id": "sdevloper-webrowse-south",
+    "storage_bucket": "sdevloper-webrowse-south.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465167185215:android:25848fea74ff5f4ba24f8a",
+        "android_client_info": {
+          "package_name": "com.satvik.webrowse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465167185215-o1usgcfvs8bhp8cvt19c3n2tufdf5s7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2sqD6rUsezjCEAmO7uO8Xf24mFk0twgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465167185215-o1usgcfvs8bhp8cvt19c3n2tufdf5s7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
