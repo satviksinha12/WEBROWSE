@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WEBROWSE</string>
+    <string name="activity2tooldbarhead" />
+    <string name="toolbar2head">Settings</string>
 </resources>
