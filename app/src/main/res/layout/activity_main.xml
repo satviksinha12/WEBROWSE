@@ -40,11 +40,13 @@
         android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="169dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="368dp"
         android:background="@drawable/image_back"
         android:contentDescription="takes the user to previous page"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/image_back" />
 
@@ -52,8 +54,8 @@
         android:id="@+id/forward"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="145dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="344dp"
         android:background="@drawable/image_forward"
         android:contentDescription="takes the user to next page"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,8 +66,8 @@
         android:id="@+id/home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="121dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="320dp"
         android:background="@drawable/image_home"
         android:contentDescription="takes the user to home page"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,43 +78,12 @@
         android:id="@+id/refresh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="290dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/image_refresh"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/image_refresh" />
-
-    <com.google.android.material.switchmaterial.SwitchMaterial
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="308dp"
-        android:text="Google"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <com.google.android.material.switchmaterial.SwitchMaterial
-        android:id="@+id/switch2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="276dp"
-        android:text="Duckduckgo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/more"
-        android:layout_width="81dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="5dp"
-        android:text="More"
-        android:textColor="#BC1BD8"
-        app:backgroundTint="@color/teal_200"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

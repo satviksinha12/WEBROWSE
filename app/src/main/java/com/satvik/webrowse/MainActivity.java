@@ -25,13 +25,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-        Button more = findViewById(R.id.more);
+        ;
         ImageButton back = findViewById(R.id.back);
         ImageButton forward = findViewById(R.id.forward);
         ImageButton home = findViewById(R.id.home);
         ImageButton refresh = findViewById(R.id.refresh);
-        SwitchMaterial duckduckgo = findViewById(R.id.switch2);
-        SwitchMaterial google = findViewById(R.id.switch1);
+
         final WebView mywebview = findViewById(R.id.webView);
         mywebview.setWebViewClient(new WebViewClient());
         mywebview.loadUrl("https://www.google.com");
@@ -62,26 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 mywebview.reload();
             }
         });
-        duckduckgo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mywebview.loadUrl("https://www.duckduckgo.com");
-            }
-        });
-        google.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mywebview.loadUrl("https://www.google.com");
-            }
-        });
 
-        more.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,MainActivity2.class);
-                startActivity(i);
-            }
-        });
 
     }
 }
