@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         final WebView mywebview = findViewById(R.id.webView);
         mywebview.setWebViewClient(new WebViewClient());
         mywebview.loadUrl("https://www.google.com");
-        mywebview.getSettings().setJavaScriptEnabled(true);
         mywebview.getSettings().setSupportZoom(true);
         mywebview.clearSslPreferences();
         back.setOnClickListener(new View.OnClickListener() {
