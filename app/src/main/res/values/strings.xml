@@ -19,4 +19,6 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="EnableJavascript">Enable Javascript support</string>
+    <string name="GO">GO</string>
+    <string name="EnterURL">Enter URL</string>
 </resources>

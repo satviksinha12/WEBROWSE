@@ -93,7 +93,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="100dp"
         android:ems="10"
-        android:hint="Enter URL"
+        android:hint="@string/EnterURL"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -105,7 +105,7 @@
         android:layout_marginStart="311dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="12dp"
-        android:text="GO"
+        android:text="@string/GO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
