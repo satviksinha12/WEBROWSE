@@ -20,7 +20,7 @@
                     android:id="@+id/switch1"
                     android:layout_width="match_parent"
                     android:layout_height="69dp"
-                    android:text="Enable Javascript" />
+                    android:text="@string/EnableJavascript" />
             </LinearLayout>
         </ScrollView>
     </FrameLayout>
